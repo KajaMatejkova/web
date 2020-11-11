@@ -50,11 +50,28 @@ address {
 .kontakt{
   background-color: #f9e3d0;
   padding: 5px 20px;
+  clear: both;
 }
 .paticka{
   background-color: #282425;
   color: white;
   text-align: center;
+  clear: both;
+}
+
+.fotografie img {
+  max-width: 480px;
+  float: left;
+  padding: 5px;
+}
+
+#logo {
+  max-width: 480px;
+}
+
+.subfoto {
+  float: left;
+  padding: 10px;
 }
 
 @media screen and (max-width: 1100px) and (min-width: 950px) {
@@ -74,7 +91,15 @@ address {
     width: 100%;
     max-width: none;
     margin: 0px 0px;
-    padding: 0px 0px;
+    padding: 5px 5px;
+  }
+
+  #logo {
+    width: 70%;
+  }
+
+  .fotografie img {
+    width: 100%;
   }
 }
 
