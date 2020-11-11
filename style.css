@@ -6,6 +6,11 @@ body {
     line-height: 2;
 }
 
+div#container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
 h1,
 h2,
 h3,
@@ -14,7 +19,7 @@ h1,
 h2,
 h3 {
     font-family: 'Bree Serif', serif;
-    font-style: italic; 
+/*  font-style: italic; */
 }
 
 h1 {
@@ -33,10 +38,10 @@ h3 {
 }
 
 a {
-    font-style: italic;
+/*    font-style: italic; */
 }
 
-.fotografie,
+/*.fotografie,*/
 .kontakt{
   background-color: #f9e3d0;
 }
@@ -45,3 +50,25 @@ a {
   color: white;
   text-align: center;
 }
+
+@media screen and (max-width: 1100px) and (min-width: 950px) {
+  div#container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 949px) and (min-width: 700px) {
+  div#container {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  div#container {
+    width: 100%;
+    max-width: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+}
+
