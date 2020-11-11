@@ -42,6 +42,10 @@ a {
 /*    font-style: italic; */
 }
 
+address {
+  font-style: normal;
+}
+
 /*.fotografie,*/
 .kontakt{
   background-color: #f9e3d0;
